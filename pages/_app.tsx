@@ -9,7 +9,7 @@ import { AppProps } from 'next/app';
 import { ThemeProvider } from 'next-themes'
 
 
-function MyApp({ Component, pageProps }: AppProps) {
+function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider attribute="class" enableSystem={false}>
 
@@ -20,4 +20,4 @@ function MyApp({ Component, pageProps }: AppProps) {
   )
 }
 
-export default MyApp
+export default App
