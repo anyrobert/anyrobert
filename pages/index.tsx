@@ -1,18 +1,19 @@
+import { About } from '../components'
+
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className="space-y-14 lg:space-y-24">
       <Head>
         <title>anyrobert</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <main className="max-w-4xl mx-auto mt-16 antialiased">
+        <About />
+      </main>
     </div>
   )
 }

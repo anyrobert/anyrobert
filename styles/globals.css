@@ -2,19 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.card-zoom {
+  @apply relative flex items-center justify-center m-3 overflow-hidden shadow-xl w-60 h-60 rounded-full;
+}
+.card-zoom-image {
+  background-position: -0.75rem -2rem;
+  @apply absolute w-full h-full transition-all duration-500 ease-in-out transform bg-cover;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+.card-zoom:hover .card-zoom-image {
+  @apply scale-125;
 }
