@@ -1,10 +1,16 @@
-import React from 'react'
-import { motion } from 'framer-motion'
+"use client";
+
+import anyrobert from "../../public/anyrobert.jpg";
+
+import React from "react";
+import Image from "next/image";
+
+import { motion } from "framer-motion";
 
 export const About = () => {
   return (
     <div className="container px-4 mx-auto">
-      <div className="lg:space-x-5 lg:flex lg:flex-row item-center lg:-mx-4 flex flex-col-reverse text-center lg:text-left">
+      <div className="lg:space-x-5 lg:flex lg:flex-row item-center lg:-mx-4 flex flex-col-reverse text-center lg:text-left items-center">
         <motion.article
           className="lg:px-4 lg:mt-12 h-max"
           initial={{ opacity: 0, skew: 30, x: -250 }}
@@ -28,15 +34,18 @@ export const About = () => {
           </div>
         </motion.article>
         <motion.div
-          className="flex-shrink-0 lg:mt-12 lg:px-4 mb-10"
-          initial={{ opacity: 0, skew: 30, x: 250 }}
+          initial={{ opacity: 0, skew: 10, x: 250 }}
+          whileHover={{ scale: 1.05 }}
           animate={{ opacity: 1, skew: 0, x: 0 }}
         >
-          <div className="card-zoom m-auto">
-            <div className="card-zoom-image bg-profile" />
-          </div>
+          <Image
+            className="rounded-full max-w-xs aspect-square object-cover mb-4 lg:mb-0"
+            src={anyrobert}
+            alt="Picture of the author"
+            placeholder="blur"
+          />
         </motion.div>
       </div>
     </div>
-  )
-}
+  );
+};

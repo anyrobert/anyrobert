@@ -1,5 +1,7 @@
-import React from 'react'
-import { motion } from 'framer-motion'
+"use client";
+
+import React from "react";
+import { motion } from "framer-motion";
 
 export const Footer = () => {
   return (
@@ -27,7 +29,7 @@ export const Footer = () => {
             <motion.a
               whileHover={{ scale: 1.1 }}
               href="https://twitter.com/anyrobert_"
-              className={'transition-colors hover:text-primary'}
+              className={"transition-colors hover:text-primary"}
               target="_blank"
               rel="noreferrer"
             >
@@ -35,8 +37,8 @@ export const Footer = () => {
             </motion.a>
             <motion.a
               whileHover={{ scale: 1.1 }}
-              href="https://www.linkedin.com/in/robert-gabriel-cardoso"
-              className={'transition-colors hover:text-primary'}
+              href="https://www.linkedin.com/in/robert-gabriel-da-luz"
+              className={"transition-colors hover:text-primary"}
               target="_blank"
               rel="noreferrer"
             >
@@ -45,7 +47,7 @@ export const Footer = () => {
             <motion.a
               whileHover={{ scale: 1.1 }}
               href="https://github.com/anyrobert"
-              className={'transition-colors hover:text-primary'}
+              className={"transition-colors hover:text-primary"}
               target="_blank"
               rel="noreferrer"
             >
@@ -55,5 +57,5 @@ export const Footer = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
