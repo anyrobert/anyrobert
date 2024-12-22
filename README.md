@@ -5,7 +5,7 @@ I am Robert, web developer based in Curitiba, passionate about technology and de
 <p align="center">
     Find out more about me & feel free to connect with me here:
     <br /><br />
-	<a href="https://anyrobert.vercel.app/">
+	<a href="https://anyrobert.com/">
 		<img src="https://img.shields.io/badge/website-FFF?style=for-the-badge&logo=devdotto&logoColor=black" />
 	</a>
 	<a href="https://www.linkedin.com/in/robert-gabriel-cardoso/">
