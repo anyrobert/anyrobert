@@ -35,6 +35,5 @@ I am Robert, web developer based in Curitiba, passionate about technology and de
 
 <br />
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=anyrobert&show_icons=true&hide_border=true&theme=radical" />
   <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=anyrobert&hide_border=true&theme=radical" />
 </p>
